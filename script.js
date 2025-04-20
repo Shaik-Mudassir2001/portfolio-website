@@ -1,3 +1,7 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
+
 
         const themeToggleBtn = document.querySelector('.theme-toggle');
         const htmlElement = document.documentElement;
